@@ -1,9 +1,21 @@
+@use "sass:math";
+@use "sass:map";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+@import "variables";
+@import "colours";
+
 body {
-    background-color: red;
+    background-color: map.get($colours, "Danger");
 }
 
-a{
-    // color: $first;
+p {
+    color: map-get($colours, "Snow" );
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+a {
     list-style: none;
     text-decoration: none;
+    font-size: $Max;
 }

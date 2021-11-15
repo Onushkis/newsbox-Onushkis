@@ -1,19 +1,4 @@
-// Color Palette
-$colors: (
-  "Sage": #87BCBF,
-  "Rust": #D97D54,
-  "Drab": #324755,
-  "Slate": #6E8CA0,
-  "Danger": #d95454,
-  "Onyx": #1B1C20,
-  "Snow": #FFFFFF,
-  "Ice": #F0F3F4,
-  "Onyx": #1B1C20,
-  "Fossil": #C8D1D3,
-  "Sand": #B9B0A2,
-  );
-
- // Font sizes
+// Font sizes
 $Message-Time-Stamp: 0.75rem;
 $Body-Copy-Small: 0.875rem;
 $Card-Copy-Small: 0.9375rem;
@@ -24,8 +9,8 @@ $Section-Header: 1.125rem bold;
 $Secondary-Heading: 1.5rem bold;
 $Primary-Heading: 1.875rem bold;
 
- // Line spacing
- $Max: 35;
- $Mid: 25;
- $Small-Xl: 18;
- $Small: 15;
+// Line spacing
+$Max: 35;
+$Mid: 25;
+$Small-Xl: 18;
+$Small: 15;

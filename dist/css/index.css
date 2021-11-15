@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
 body {
-  background-color: red;
+  background-color: #d95454;
+}
+
+p {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: bold;
 }
 
 a {
   list-style: none;
   text-decoration: none;
+  font-size: 35;
 }
