@@ -1,0 +1,30 @@
+{
+  "name": "newsbox-onushkis",
+  "version": "1.0.0",
+  "description": "I denne praktikperiode skal I udvikle en nyheds webapplikation som er optimeret til den mobile skærm. I applikationen skal der listes nyheder fra The New York Times i et kategoriseret nyhedsoverblik. Det skal være muligt at vælge(klikke på) en nyhed i listen, hvorefter brugeren vil blive sendt videre til den fulde artikel på nytimes.com.<br><br>\r Nyhedsartikler skal også kunne gemmes i et privat nyhedsarkiv. Gem funktionen bliver synlig når der swipes til venstre [se illustration](https://github.com/rts-cmk-opgaver/praktik-projekt-newsbox/blob/master/assets/swipe-illustration.png \"swipe illustration\") på en nyhed. Fra det private nyhedsarkiv kan ligeledes tilgås artikler og artikler kan slettes. Slet funktionen bliver synlig når der swipes til venstre [se illustration](https://github.com/rts-cmk-opgaver/praktik-projekt-newsbox/blob/master/assets/swipe-illustration.png \"swipe illustration\") på en arkiveret nyhed.<br><br>\r Fra settings panelet skal brugeren have mulighed for at administrere det kategoriserede nyhedsoverblik ved at slå visning til eller fra for nyhedskategorier. Fra settings panelet skal brugeren også kunne skifte mellem lyst og mørkt tema.\r <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onushkis/newsbox-Onushkis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Onushkis/newsbox-Onushkis/issues"
+  },
+  "homepage": "https://github.com/Onushkis/newsbox-Onushkis#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
